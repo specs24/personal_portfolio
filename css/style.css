@@ -1,0 +1,188 @@
+/**changing box-sizing to border-box***/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+line-height: 1.5;
+font-family: ‘Roboto’,serif;
+font-size: 14px;
+Background-color: #F2F2F2;
+}
+
+blockquote, q {
+quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+Table, td , th {
+border-collapse: collapse;
+border-spacing: 0;
+Table-layout: fixed;
+}
+
+
+
+.stopfinder {
+Font-size: 23px;
+Text-align: center;
+Background-color: #F8F8F8;
+Font-weight: bold;
+Padding: 35px 0px 10px 0px;
+}
+
+
+
+Input {
+width: 365px;
+Border-radius: 8px;
+Background-color: #f2f2f2;
+Padding: 8px;
+Color: #afa5a5;
+font-family: ‘Roboto’,serif;
+Font-size: 18px;
+Border: 0px solid;
+Margin-left: 10px;
+padding-left:30px;
+
+}
+
+input:focus {
+	outline:none;
+}
+
+.searchbar {
+	margin-top: 5px;
+margin-bottom: 5px;
+Border-color: white;
+}
+
+.user {
+Float: right;
+Margin-right: 20px;
+}
+
+.container {
+width: 385px;
+margin: 20px auto 0 auto;
+padding: 1.5px;
+Background-color: white;
+Border: 5%;
+Border-color: white;
+}
+
+#busRoute {
+background-color: #DDA0DD;
+padding: 2%;
+Font-weight: normal;
+}
+
+.direction {
+Font-weight: bold;
+Color: white;
+Background-color: grey;
+Border-radius: 4px;
+padding: 5px 0px 5px 15px;
+}
+
+.out {
+Font-weight: bold;
+Color: black;
+Background-color: red;
+Border-radius: 4px;
+padding: 5px 0px 5px 15px;
+}
+
+.reroute {
+Font-weight: bold;
+Color: black;
+Background-color: yellow;
+Border-radius: 4px;
+padding: 5px 0px 5px 15px;
+}
+
+th, td {
+padding: 3px;
+text-align: left; 
+}
+
+tr {
+border-bottom: 1px solid #d3d3d3;
+}
+
+th {
+Font-weight: bold;
+}
+
+
+.stopLabel, .distanceLabel {
+background-color: #BB6BD9;
+Width: 40%;
+Margin: 1%;
+color: white;
+padding: 2.5%;
+Border-radius: 5px;
+}
+
+
+.distanceLabel, .distance, .stopLabel, .stopLocation  {
+ 	Display: inline-block;
+}
+
+.stopLocation, .distance {
+Font-weight: bold;
+Text-align: center;
+}
+
+.busStopInfo {
+Border-top: 1px solid #EAEAEA;
+Border-bottom: 1px solid #EAEAEA;
+}
+.distanceInfo {
+Border-top: 1px solid #EAEAEA;
+Border-bottom: 1px solid #EAEAEA;
+}
+
+H1{
+font-size: 115%;
+font-weight: bold;
+}
+
+h3 {
+font-size: 105%;
+line-height: 90%;
+}
+
+
+.icon {
+Width: 25%;
+Padding: 15px;
+Display: inline-block;
+Text-align: center;
+font-size: 78%;
+Border:  1px solid #EAEAEA;
+Margin: 0px auto;
+}
+
+.stop {
+Color: red;
+}
+
+.history, .compare, .settings {
+Color: gray;
+}
+
+.toolbar Img {
+	Display: block;
+height: 15px;
+width: 15px;
+Margin-left: 20px;
+}
+
+.stopfinder h1 {
+Margin-left: 55px;	
+}
