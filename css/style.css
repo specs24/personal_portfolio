@@ -1,188 +1,222 @@
-/**changing box-sizing to border-box***/
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-body {
-line-height: 1.5;
-font-family: ‘Roboto’,serif;
-font-size: 14px;
-Background-color: #F2F2F2;
+html{
+	font-size: 25px;
 }
 
-blockquote, q {
-quotes: none;
+p{
+	font-family: 'Mada';
+	font-size: 170%;
+	line-height: 350%;
+	width:70%;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom:5%;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-Table, td , th {
-border-collapse: collapse;
-border-spacing: 0;
-Table-layout: fixed;
+#backgroundCompete {
+		font-family: 'Mada';	
+		text-align: center;
 }
 
 
 
-.stopfinder {
-Font-size: 23px;
-Text-align: center;
-Background-color: #F8F8F8;
-Font-weight: bold;
-Padding: 35px 0px 10px 0px;
+h3{
+	font-size: 250%;
+	font-family: 'Mada';
+}
+
+.linkUpLogo img{
+	width: 18%;
+	height: auto;
+}
+
+.Persona img{
+	width: 45%;
+	height: auto;
 }
 
 
-
-Input {
-width: 365px;
-Border-radius: 8px;
-Background-color: #f2f2f2;
-Padding: 8px;
-Color: #afa5a5;
-font-family: ‘Roboto’,serif;
-Font-size: 18px;
-Border: 0px solid;
-Margin-left: 10px;
-padding-left:30px;
-
+.title{
+	bottom-padding: 100px;
 }
 
-input:focus {
-	outline:none;
+#intro1{
+	font-size: 60px;
+	background-color:pink;
+	opacity: 0.7;
 }
 
-.searchbar {
-	margin-top: 5px;
-margin-bottom: 5px;
-Border-color: white;
+.projectHead {
+	background-color: #68646B;
+	padding: 1%;
+	Font-weight: normal;
+	color: white;
 }
 
-.user {
-Float: right;
-Margin-right: 20px;
+.button img{
+	width: 35%;		
+	height: auto;		
+}
+
+.pic.Flow img{
+	width: 25%;		
+	height: auto;
+	bottom-padding: 5px;		
+}
+
+.pic.Sketch img{
+	width: 16%;		
+	height: auto;
+	bottom-padding: 5px;		
+}
+
+.pic.Wireframe img{
+	width: 50%;		
+	height: auto;
+	bottom-padding: 5px;		
+}
+
+.pic.User img{
+	width: 30%;		
+	height: auto;
+	bottom-padding: 5px;		
+}
+
+.pic.Wireframe2 img{
+	width: 50%;		
+	height: auto;
+	bottom-padding: 5px;		
+}
+
+.pic.Brand img{
+	width: 35%;		
+	height: auto;
+	bottom-padding: 5px;		
+}
+
+
+#logoColor {
+	display:inline-block;
+}
+
+#name{
+	display: inline-block;
+	font-family: 'La Belle Aurore';
+	font-size: 500%;
+	text-align: left;
+}
+
+h2{
+	font-family: 'La Belle Aurore';
+	font-size: 300%;
+	text-align: center;
+}
+
+h4{
+	font-family: 'Mada';
+	font-size: 150%;
+	text-decoration: underline;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h1{
+	font-family: 'Mada';
+	font-size: 150%;
+	width: 60%;
+}
+
+.title h1{
+	font-size: 250%;
+	text-align: center;
+	width: 100%;
+}
+
+.linkUpMain{
+	text-align: center;
 }
 
 .container {
-width: 385px;
-margin: 20px auto 0 auto;
-padding: 1.5px;
-Background-color: white;
-Border: 5%;
-Border-color: white;
+	background-color: white;
+	width: 100;
 }
 
-#busRoute {
-background-color: #DDA0DD;
-padding: 2%;
-Font-weight: normal;
+#intro1 {
+	padding:5%;
+	line-height: 250%;
 }
 
-.direction {
-Font-weight: bold;
-Color: white;
-Background-color: grey;
-Border-radius: 4px;
-padding: 5px 0px 5px 15px;
+.competitiveAnalysis img{
+	width:60%;
+	height: auto;
+	text-align: center;
+	padding-bottom: 5%;
 }
 
-.out {
-Font-weight: bold;
-Color: black;
-Background-color: red;
-Border-radius: 4px;
-padding: 5px 0px 5px 15px;
-}
-
-.reroute {
-Font-weight: bold;
-Color: black;
-Background-color: yellow;
-Border-radius: 4px;
-padding: 5px 0px 5px 15px;
-}
-
-th, td {
-padding: 3px;
-text-align: left; 
-}
-
-tr {
-border-bottom: 1px solid #d3d3d3;
-}
-
-th {
-Font-weight: bold;
+.prototype, .compare, .button, .pic{
+	
+	text-align: center;
+	margin-bottom: 5%;
 }
 
 
-.stopLabel, .distanceLabel {
-background-color: #BB6BD9;
-Width: 40%;
-Margin: 1%;
-color: white;
-padding: 2.5%;
-Border-radius: 5px;
+.protoPhone img{
+	height: auto;
+	width: 15%;
+	display: inline-block;			
+}
+
+.protoDesktop img{
+	height: auto;
+	width: 50%;
+	display: inline-block;			
+}
+
+.busyBus img{
+	width: 20%;
+}
+
+.linkUp img{
+	width: 20%;
+}
+
+body {
+	background-color: white;
+	width: 100%;		
+}
+
+.social {
+	text-align: right;
+	padding-top: 3%;
+}
+
+#background1 {
+		background-color: rgba(104,100,107, 0.2);
+		float: left;
+}
+
+#background2 {
+		background-color: rgba(104,100,107, 0.2);
+		float: right;
+}
+
+.background {
+		background-color: rgba(104,100,107, 0.2);
 }
 
 
-.distanceLabel, .distance, .stopLabel, .stopLocation  {
- 	Display: inline-block;
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
 }
 
-.stopLocation, .distance {
-Font-weight: bold;
-Text-align: center;
-}
-
-.busStopInfo {
-Border-top: 1px solid #EAEAEA;
-Border-bottom: 1px solid #EAEAEA;
-}
-.distanceInfo {
-Border-top: 1px solid #EAEAEA;
-Border-bottom: 1px solid #EAEAEA;
-}
-
-H1{
-font-size: 115%;
-font-weight: bold;
-}
-
-h3 {
-font-size: 105%;
-line-height: 90%;
-}
-
-
-.icon {
-Width: 25%;
-Padding: 15px;
-Display: inline-block;
-Text-align: center;
-font-size: 78%;
-Border:  1px solid #EAEAEA;
-Margin: 0px auto;
-}
-
-.stop {
-Color: red;
-}
-
-.history, .compare, .settings {
-Color: gray;
-}
-
-.toolbar Img {
-	Display: block;
-height: 15px;
-width: 15px;
-Margin-left: 20px;
-}
-
-.stopfinder h1 {
-Margin-left: 55px;	
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
