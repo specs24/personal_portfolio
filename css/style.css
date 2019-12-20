@@ -2,6 +2,10 @@ body{
 	font-size: 22.5px;
 	line-height: 200%;
 	font-family: 'Mada';
+	display: grid;
+	grid-template-areas:
+	"navbar";
+	"hero";	
 }
 
 * {
@@ -56,10 +60,6 @@ p{
 body {
 	background-color: white;
 	width: 100%;
-	display: grid;
-	grid-template-areas:
-	"navbar";
-	"hero";	
 }
 
 #headerLogo {
@@ -223,6 +223,7 @@ h1{
 	width: 100%;
 	clear: both;
 	background-color: pink;
+	grid-area: summary;
 	
 }
 
@@ -236,9 +237,6 @@ h1{
 	height: 35rem;
 }
 
-.social {
-	
-}
 
 .background {
 	background-color: rgba(104,100,107, 0.2);
@@ -271,7 +269,7 @@ h1{
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 	body {
 		grid-template-columns: 2fr 8fr 2fr;
 		grid-template-areas:
@@ -279,5 +277,6 @@ h1{
 		". hero .";	
 		". problem .";	
 		". summary .";
+		"social social social";
 }
 }
