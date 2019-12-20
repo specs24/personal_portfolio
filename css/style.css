@@ -1,20 +1,65 @@
-html{
-	font-size: 20px;
+body{
+	font-size: 22.5px;
+	line-height: 200%;
+	font-family: 'Mada';
+}
+
+* {
+	box-sizing: border-box;
 }
 
 p{
-	font-family: 'Mada';
-	font-size: 140%;
-	line-height: 300%;
 	text-align: left;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom:5%;
+
+}
+
+.header {
+	background-color: grey;
+	padding: 2%;
+	color: white;
+}
+
+.summary {
+	grid-area: summary;
+	display: grid;
+	grid-template-columns: 2fr 8fr 2fr;
+}
+
+.hero {
+	font-size: 50px;
+	background-color: pink;
+	opacity: 0.7;
+	grid-area: hero;
+	padding: 10rem 10rem;
+	line-height: 5rem;
+	text-align: center;
+}
+
+.problem {
+	grid-area: problem;
+	padding: 10rem 10rem;
+	line-height: 5rem;
+	text-align: center;
+}
+
+
+.navbar {
+	grid-area: navbar;
+	text-align: right;
 }
 
 #backgroundCompete {
 		font-family: 'Mada';	
 		text-align: center;
+}
+
+body {
+	background-color: white;
+	width: 100%;
+	display: grid;
+	grid-template-areas:
+	"navbar";
+	"hero";	
 }
 
 #headerLogo {
@@ -36,12 +81,6 @@ h3{
 
 .title{
 	bottom-padding: 100px;
-}
-
-#intro1{
-	font-size: 50px;
-	background-color:pink;
-	opacity: 0.7;
 }
 
 .projectHead {
@@ -123,12 +162,8 @@ h4{
 h1{
 	font-family: 'Mada';
 	font-size: 130%;
-	width: 55%;
 }
 
-.social {
-	clear: both;
-}
 .title h1{
 	font-size: 250%;
 	text-align: center;
@@ -142,11 +177,6 @@ h1{
 .container {
 	background-color: white;
 	width: 100%;
-}
-
-#intro1 {
-	padding: 3%;
-	line-height: 230%;
 }
 
 .competitiveAnalysis img{
@@ -186,39 +216,28 @@ h1{
 	width: 45%;
 }
 
-body {
-	background-color: white;
-	width: 100%;		
-}
-
 .social {
-	text-align: right;
-	padding-bottom: 3%;
-	padding-right: 1%;
+	text-align: center;
+	padding: 5rem;
 	display: block;
-	margin: 2%;
 	width: 100%;
+	clear: both;
+	background-color: pink;
 	
 }
 
-#background1 {
-	background-color: rgba(104,100,107, 0.2);
+#background1, #background2 {
 	float: left;
-	width: 45%;
+	width: 50%;
 	padding-left: 3%;
 	font-family: 'Mada';
 	font-size: 140%;
 	line-height: 300%;
+	height: 35rem;
 }
 
-#background2 {
-	background-color: rgba(104,100,107, 0.2);
-	width: 45%;
-	float: right;
-	padding-left: 3%;
-	font-family: 'Mada';
-	font-size: 140%;
-	line-height: 300%;
+.social {
+	
 }
 
 .background {
@@ -230,6 +249,10 @@ body {
 	margin: 2%;
 	width: 35%;
 	
+}
+
+#headerLogo img{
+	text-align: center;
 }
 
 
@@ -245,4 +268,16 @@ body {
   .column {
     width: 100%;
   }
+}
+
+
+@media (max-width: 600px) {
+	body {
+		grid-template-columns: 2fr 8fr 2fr;
+		grid-template-areas:
+		"navbar navbar navbar";
+		". hero .";	
+		". problem .";	
+		". summary .";
+}
 }
