@@ -2,10 +2,16 @@ body{
 	font-size: 22.5px;
 	line-height: 200%;
 	font-family: 'Mada';
+	width: 100%;
 	display: grid;
-	grid-template-areas:
-	"navbar";
-	"hero";	
+	grid-template-columns: 2fr 8fr 2fr;
+	grid-template-areas: 	"navbar navbar navbar"
+				". hero ."	
+				". problem ."	
+				". summary ."
+				"social social social" 
+				'header header header';
+					
 }
 
 * {
@@ -21,6 +27,7 @@ p{
 	background-color: grey;
 	padding: 2%;
 	color: white;
+	grid area: header;
 }
 
 .summary {
@@ -223,7 +230,7 @@ h1{
 	width: 100%;
 	clear: both;
 	background-color: pink;
-	grid-area: summary;
+	grid-area: social;
 	
 }
 
@@ -268,15 +275,3 @@ h1{
   }
 }
 
-
-@media (min-width: 600px) {
-	body {
-		grid-template-columns: 2fr 8fr 2fr;
-		grid-template-areas:
-		"navbar navbar navbar";
-		". hero .";	
-		". problem .";	
-		". summary .";
-		"social social social";
-}
-}
