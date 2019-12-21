@@ -3,14 +3,6 @@ body{
 	line-height: 200%;
 	font-family: 'Mada';
 	width: 100%;
-	display: grid;
-	grid-template-columns: 2fr 8fr 2fr;
-	grid-template-areas: 	"navbar navbar navbar"
-				". hero ."	
-				". problem ."	
-				". summary ."
-				"social social social" 
-				'header header header';
 					
 }
 
@@ -20,48 +12,33 @@ body{
 
 p{
 	text-align: left;
+	margin-left: 30rem;
+	margin-right: 30rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 
 }
 
 .header {
 	background-color: grey;
-	padding: 2%;
+	padding: 1rem;
 	color: white;
-	grid area: header;
 }
 
-.summary {
-	grid-area: summary;
-	display: grid;
-	grid-template-columns: 2fr 8fr 2fr;
-}
 
 .hero {
 	font-size: 50px;
 	background-color: pink;
 	opacity: 0.7;
-	grid-area: hero;
 	padding: 10rem 10rem;
-	line-height: 5rem;
+	line-height: 5rem; 	
 	text-align: center;
 }
-
-.problem {
-	grid-area: problem;
-	padding: 10rem 10rem;
-	line-height: 5rem;
-	text-align: center;
-}
-
 
 .navbar {
-	grid-area: navbar;
-	text-align: right;
-}
-
-#backgroundCompete {
-		font-family: 'Mada';	
-		text-align: center;
+	float: right;
+	display: inline-block;
+	padding-right: 3%;
 }
 
 body {
@@ -85,10 +62,6 @@ h3{
 	height: auto;
 }
 
-
-.title{
-	bottom-padding: 100px;
-}
 
 .projectHead {
 	background-color: #68646B;
@@ -153,7 +126,7 @@ h3{
 
 h2{
 	font-family: 'La Belle Aurore';
-	font-size: 300%;
+	font-size: 43.95px;
 	text-align: center;
 }
 
@@ -230,7 +203,6 @@ h1{
 	width: 100%;
 	clear: both;
 	background-color: pink;
-	grid-area: social;
 	
 }
 
@@ -239,11 +211,14 @@ h1{
 	width: 50%;
 	padding-left: 3%;
 	font-family: 'Mada';
-	font-size: 140%;
-	line-height: 300%;
+	font-size: 28.13px;
+	line-height: 200%;
 	height: 35rem;
 }
 
+#projectLink {
+	color: #6F97FF;
+}
 
 .background {
 	background-color: rgba(104,100,107, 0.2);
@@ -256,7 +231,7 @@ h1{
 	
 }
 
-#headerLogo img{
+#headerLogo {
 	text-align: center;
 }
 
